@@ -4,5 +4,11 @@ def prime?(n)
     return FALSE
   end
   
-  for 
+  for i in 1..n
+    if n % i == 0
+      return FALSE
+    else
+      return TRUE
+    end
+  end
 end
