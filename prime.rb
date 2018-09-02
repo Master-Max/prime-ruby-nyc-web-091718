@@ -9,5 +9,6 @@ def prime?(n)
     if n != i && n % i == 0
       return FALSE
     end
+  end
   return TRUE
 end
