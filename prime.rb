@@ -4,7 +4,6 @@ def prime?(n)
     return FALSE
   end
   
-  ans = FALSE
   i = 2
   while i < n
     if n != i && n % i == 0
