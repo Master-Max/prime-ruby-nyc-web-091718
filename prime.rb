@@ -8,6 +8,8 @@ def prime?(n)
   while i < n
     if n != i && n % i == 0
       return FALSE
+    else
+      i += 1
     end
   end
   return TRUE
