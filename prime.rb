@@ -5,8 +5,10 @@ def prime?(n)
   end
   
   ans = FALSE
-  
-  for i in 1..n
-    if n % i == 0
-      ans = FALSE
+  i = 2
+  while i < n
+    if n != i && n % i == 0
+      return FALSE
+    end
+  return TRUE
 end
